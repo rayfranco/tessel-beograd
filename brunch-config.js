@@ -3,6 +3,9 @@
 var fs = require('fs');
 
 exports.config = {
+  modules: {
+    definition: false
+  },
   files: {
     javascripts: {
       joinTo: 'scripts/main.js'
