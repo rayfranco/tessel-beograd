@@ -3,11 +3,6 @@
 var fs = require('fs');
 
 exports.config = {
-  conventions: {
-    assets: [
-      /app[\\/](?!\.(js))/
-    ]
-  },
   files: {
     javascripts: {
       joinTo: 'scripts/main.js'
