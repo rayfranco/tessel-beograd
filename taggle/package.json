@@ -1,0 +1,8 @@
+{
+  "name": "tessel-beograd-taggle",
+  "devDependencies": {},
+  "scripts": {},
+  "dependencies": {
+    "ambient-attx4": "^0.2.5"
+  }
+}

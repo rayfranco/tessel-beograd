@@ -1,0 +1,281 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'brunch' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose cache add [ 'brunch', null ]
+5 verbose cache add name=undefined spec="brunch" args=["brunch",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'brunch',
+6 verbose parsed url   path: 'brunch',
+6 verbose parsed url   href: 'brunch' }
+7 silly lockFile 58390c40-brunch brunch
+8 verbose lock brunch /Users/franco/.npm/58390c40-brunch.lock
+9 silly lockFile 58390c40-brunch brunch
+10 silly lockFile 58390c40-brunch brunch
+11 verbose addNamed [ 'brunch', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 8098d1eb-brunch brunch@
+14 verbose lock brunch@ /Users/franco/.npm/8098d1eb-brunch.lock
+15 silly addNameRange { name: 'brunch', range: '*', hasData: false }
+16 verbose request where is /brunch
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id d37e72306360c0a1
+19 verbose url raw /brunch
+20 verbose url resolving [ 'https://registry.npmjs.org/', './brunch' ]
+21 verbose url resolved https://registry.npmjs.org/brunch
+22 verbose request where is https://registry.npmjs.org/brunch
+23 info trying registry request attempt 1 at 18:03:48
+24 verbose etag "CMYU3J0LYPHQAKP09SH91CCYX"
+25 http GET https://registry.npmjs.org/brunch
+26 http 304 https://registry.npmjs.org/brunch
+27 silly registry.get cb [ 304,
+27 silly registry.get   { date: 'Wed, 15 Apr 2015 16:03:48 GMT',
+27 silly registry.get     server: 'Apache',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     'last-modified': 'Wed, 15 Apr 2015 16:03:48 GMT',
+27 silly registry.get     'cache-control': 'max-age=60',
+27 silly registry.get     etag: '"CMYU3J0LYPHQAKP09SH91CCYX"',
+27 silly registry.get     age: '0',
+27 silly registry.get     'x-served-by': 'cache-ams4120-AMS',
+27 silly registry.get     'x-cache': 'HIT',
+27 silly registry.get     'x-cache-hits': '1',
+27 silly registry.get     'x-timer': 'S1429113828.727942,VS0,VE169',
+27 silly registry.get     vary: 'Accept',
+27 silly registry.get     'content-length': '0',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 verbose etag https://registry.npmjs.org/brunch from cache
+29 silly addNameRange number 2 { name: 'brunch', range: '*', hasData: true }
+30 silly addNameRange versions [ 'brunch',
+30 silly addNameRange   [ '0.0.1',
+30 silly addNameRange     '0.0.2',
+30 silly addNameRange     '0.0.3',
+30 silly addNameRange     '0.0.4',
+30 silly addNameRange     '0.0.5',
+30 silly addNameRange     '0.0.6',
+30 silly addNameRange     '0.0.7',
+30 silly addNameRange     '0.0.8',
+30 silly addNameRange     '0.1.0',
+30 silly addNameRange     '0.1.1',
+30 silly addNameRange     '0.1.3',
+30 silly addNameRange     '0.1.4',
+30 silly addNameRange     '0.1.5',
+30 silly addNameRange     '0.1.6',
+30 silly addNameRange     '0.1.7',
+30 silly addNameRange     '0.1.8',
+30 silly addNameRange     '0.1.9',
+30 silly addNameRange     '0.2.0',
+30 silly addNameRange     '0.2.1',
+30 silly addNameRange     '0.2.2',
+30 silly addNameRange     '0.2.3',
+30 silly addNameRange     '0.2.4',
+30 silly addNameRange     '0.2.6',
+30 silly addNameRange     '0.2.7',
+30 silly addNameRange     '0.2.8',
+30 silly addNameRange     '0.3.0',
+30 silly addNameRange     '0.3.1',
+30 silly addNameRange     '0.3.2',
+30 silly addNameRange     '0.3.4',
+30 silly addNameRange     '0.3.5',
+30 silly addNameRange     '0.3.6',
+30 silly addNameRange     '0.3.7',
+30 silly addNameRange     '0.4.0',
+30 silly addNameRange     '0.4.1',
+30 silly addNameRange     '0.4.2',
+30 silly addNameRange     '0.4.3',
+30 silly addNameRange     '0.4.4',
+30 silly addNameRange     '0.4.5',
+30 silly addNameRange     '0.5.1',
+30 silly addNameRange     '0.5.2',
+30 silly addNameRange     '0.5.3',
+30 silly addNameRange     '0.5.4',
+30 silly addNameRange     '0.5.5',
+30 silly addNameRange     '0.5.6',
+30 silly addNameRange     '0.6.0',
+30 silly addNameRange     '0.6.1',
+30 silly addNameRange     '0.6.2',
+30 silly addNameRange     '0.7.0',
+30 silly addNameRange     '0.7.1',
+30 silly addNameRange     '0.7.2',
+30 silly addNameRange     '0.7.3',
+30 silly addNameRange     '0.7.4',
+30 silly addNameRange     '0.8.0',
+30 silly addNameRange     '0.8.1',
+30 silly addNameRange     '0.9.0-beta1',
+30 silly addNameRange     '0.9.0',
+30 silly addNameRange     '0.9.1',
+30 silly addNameRange     '1.0.0',
+30 silly addNameRange     '1.0.1',
+30 silly addNameRange     '1.0.2',
+30 silly addNameRange     '1.0.3',
+30 silly addNameRange     '1.1.0',
+30 silly addNameRange     '1.1.1',
+30 silly addNameRange     '1.1.2',
+30 silly addNameRange     '1.2.0',
+30 silly addNameRange     '1.2.1',
+30 silly addNameRange     '1.2.2',
+30 silly addNameRange     '1.3.0',
+30 silly addNameRange     '1.3.1',
+30 silly addNameRange     '1.3.2',
+30 silly addNameRange     '1.3.3',
+30 silly addNameRange     '1.3.4',
+30 silly addNameRange     '1.4.0',
+30 silly addNameRange     '1.4.1',
+30 silly addNameRange     '1.4.2',
+30 silly addNameRange     '1.4.3',
+30 silly addNameRange     '1.4.4',
+30 silly addNameRange     '1.4.5',
+30 silly addNameRange     '1.5.0',
+30 silly addNameRange     '1.5.1',
+30 silly addNameRange     '1.5.2',
+30 silly addNameRange     '1.5.3',
+30 silly addNameRange     '1.5.4',
+30 silly addNameRange     '1.6.0',
+30 silly addNameRange     '1.6.1',
+30 silly addNameRange     '1.6.2',
+30 silly addNameRange     '1.6.3',
+30 silly addNameRange     '1.6.4',
+30 silly addNameRange     '1.6.5',
+30 silly addNameRange     '1.6.6',
+30 silly addNameRange     '1.6.7',
+30 silly addNameRange     '1.7.0',
+30 silly addNameRange     '1.7.1',
+30 silly addNameRange     '1.7.2',
+30 silly addNameRange     '1.7.3',
+30 silly addNameRange     '1.7.4',
+30 silly addNameRange     '1.7.5',
+30 silly addNameRange     '1.7.6',
+30 silly addNameRange     '1.7.7',
+30 silly addNameRange     '1.7.8',
+30 silly addNameRange     '1.7.9',
+30 silly addNameRange     '1.7.10',
+30 silly addNameRange     '1.7.12',
+30 silly addNameRange     '1.7.13',
+30 silly addNameRange     '1.7.14',
+30 silly addNameRange     '1.7.15',
+30 silly addNameRange     '1.7.16',
+30 silly addNameRange     '1.7.17',
+30 silly addNameRange     '1.7.18',
+30 silly addNameRange     '1.7.19',
+30 silly addNameRange     '1.7.20',
+30 silly addNameRange     '1.8.0' ] ]
+31 verbose addNamed [ 'brunch', '1.8.0' ]
+32 verbose addNamed [ '1.8.0', '1.8.0' ]
+33 silly lockFile 0ffb0b6c-brunch-1-8-0 brunch@1.8.0
+34 verbose lock brunch@1.8.0 /Users/franco/.npm/0ffb0b6c-brunch-1-8-0.lock
+35 silly lockFile 0ffb0b6c-brunch-1-8-0 brunch@1.8.0
+36 silly lockFile 0ffb0b6c-brunch-1-8-0 brunch@1.8.0
+37 silly lockFile 8098d1eb-brunch brunch@
+38 silly lockFile 8098d1eb-brunch brunch@
+39 silly resolved [ { name: 'brunch',
+39 silly resolved     description: 'A lightweight approach to building HTML5 applications with emphasis on elegance and simplicity',
+39 silly resolved     version: '1.8.0',
+39 silly resolved     keywords:
+39 silly resolved      [ 'assembler',
+39 silly resolved        'builder',
+39 silly resolved        'stack',
+39 silly resolved        'chaplin',
+39 silly resolved        'backbone',
+39 silly resolved        'ember',
+39 silly resolved        'angular',
+39 silly resolved        'html5' ],
+39 silly resolved     homepage: 'http://brunch.io/',
+39 silly resolved     author: { name: 'Brunch team', url: 'http://brunch.io' },
+39 silly resolved     repository: { type: 'git', url: 'https://github.com/brunch/brunch.git' },
+39 silly resolved     bugs: { url: 'http://github.com/brunch/brunch/issues' },
+39 silly resolved     licenses: [ [Object] ],
+39 silly resolved     main: './lib/index',
+39 silly resolved     bin: { brunch: './bin/brunch' },
+39 silly resolved     scripts:
+39 silly resolved      { prepublish: 'coffee -bo lib/ src/',
+39 silly resolved        postinstall: 'node -e "require(\'fs\').readdir(\'lib\',function(e){e&&require(\'child_process\').exec(\'npm run prepublish\')})"',
+39 silly resolved        test: 'mocha --compilers coffee:coffee-script/register --require test/common.coffee --colors' },
+39 silly resolved     preferGlobal: true,
+39 silly resolved     dependencies:
+39 silly resolved      { anymatch: '~1.1.0',
+39 silly resolved        anysort: '~1.0.0',
+39 silly resolved        'async-each': '~0.1.2',
+39 silly resolved        'async-waterfall': '~0.1.2',
+39 silly resolved        chokidar: '~1.0.0',
+39 silly resolved        'coffee-script': '~1.9.0',
+39 silly resolved        commander: '~2.7.1',
+39 silly resolved        'commonjs-require-definition': '~0.2.0',
+39 silly resolved        debug: '~2.1.1',
+39 silly resolved        deppack: '~0.0.8',
+39 silly resolved        fcache: '~0.1.0',
+39 silly resolved        'init-skeleton': '~0.4.0',
+39 silly resolved        loggy: '~0.2.0',
+39 silly resolved        mkdirp: '~0.5.0',
+39 silly resolved        pushserve: '~0.1.6',
+39 silly resolved        'quickly-copy-file': '~0.1.0',
+39 silly resolved        'read-components': '~0.6.0',
+39 silly resolved        'source-map': '~0.3.0' },
+39 silly resolved     devDependencies:
+39 silly resolved      { mocha: '~1.12.0',
+39 silly resolved        chai: '~1.7.0',
+39 silly resolved        rewire: '~1.1.3',
+39 silly resolved        express: '~3.3.0' },
+39 silly resolved     gitHead: '47a3fca07885af03701f29b1d2f46f64efe20e43',
+39 silly resolved     _id: 'brunch@1.8.0',
+39 silly resolved     _shasum: '795ec1ea0278f787ef1b6d1785c5ff969cb5bda1',
+39 silly resolved     _from: 'brunch@',
+39 silly resolved     _npmVersion: '2.7.5',
+39 silly resolved     _nodeVersion: '0.12.2',
+39 silly resolved     _npmUser: { name: 'paulmillr', email: 'paul@paulmillr.com' },
+39 silly resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+39 silly resolved     dist:
+39 silly resolved      { shasum: '795ec1ea0278f787ef1b6d1785c5ff969cb5bda1',
+39 silly resolved        tarball: 'http://registry.npmjs.org/brunch/-/brunch-1.8.0.tgz' },
+39 silly resolved     directories: {},
+39 silly resolved     _resolved: 'https://registry.npmjs.org/brunch/-/brunch-1.8.0.tgz',
+39 silly resolved     readme: 'ERROR: No README data found!' } ]
+40 info install brunch@1.8.0 into /usr/local/lib
+41 info installOne brunch@1.8.0
+42 verbose lib/node_modules/brunch unbuild
+43 verbose tar unpack /Users/franco/.npm/brunch/1.8.0/package.tgz
+44 silly lockFile f46cf4fa-sr-local-lib-node-modules-brunch tar:///usr/local/lib/node_modules/brunch
+45 verbose lock tar:///usr/local/lib/node_modules/brunch /Users/franco/.npm/f46cf4fa-sr-local-lib-node-modules-brunch.lock
+46 silly lockFile 146a4a0c-nco-npm-brunch-1-8-0-package-tgz tar:///Users/franco/.npm/brunch/1.8.0/package.tgz
+47 verbose lock tar:///Users/franco/.npm/brunch/1.8.0/package.tgz /Users/franco/.npm/146a4a0c-nco-npm-brunch-1-8-0-package-tgz.lock
+48 silly gunzTarPerm modes [ '755', '644' ]
+49 error Error: EACCES, mkdir '/usr/local/lib/node_modules/brunch'
+49 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/brunch']
+49 error   errno: 3,
+49 error   code: 'EACCES',
+49 error   path: '/usr/local/lib/node_modules/brunch',
+49 error   fstream_type: 'Directory',
+49 error   fstream_path: '/usr/local/lib/node_modules/brunch',
+49 error   fstream_class: 'DirWriter',
+49 error   fstream_stack:
+49 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+49 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+49 error      'Object.oncomplete (fs.js:107:15)' ] }
+50 error Please try running this command again as root/Administrator.
+51 error System Darwin 14.1.0
+52 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "brunch"
+53 error cwd /Users/franco/Sites/projects/tessel-beograd
+54 error node -v v0.10.33
+55 error npm -v 1.4.28
+56 error path /usr/local/lib/node_modules/brunch
+57 error fstream_path /usr/local/lib/node_modules/brunch
+58 error fstream_type Directory
+59 error fstream_class DirWriter
+60 error code EACCES
+61 error errno 3
+62 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/brunch'
+63 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+63 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+63 error fstream_stack Object.oncomplete (fs.js:107:15)
+64 verbose exit [ 3, true ]
