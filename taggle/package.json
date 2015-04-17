@@ -3,6 +3,7 @@
   "devDependencies": {},
   "scripts": {},
   "dependencies": {
-    "ambient-attx4": "^0.2.5"
+    "ambient-attx4": "^0.2.5",
+    "audio-vs1053b": "^0.2.0"
   }
 }
